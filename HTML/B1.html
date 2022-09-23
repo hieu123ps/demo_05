@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Buổi 1</title>
+</head>
+<body>
+	<p id="top">Chuyển dến đây</p>
+	<!-- Danh sach khong thu tu -->
+	<ul type="square">
+		<li>Số 1</li>
+		<li>Số 2</li>
+		<li>Số 3</li>
+		<ul type="circle">
+			<li>Số 3.1</li>
+			<ul>
+				<li>Số 3.1.1</li>
+			</ul>
+		</ul>
+	</ul>
+
+	<hr>
+	<!-- Danh sach co thu tu -->
+	<ol type="I" start="2">
+		<li>Số 1</li>
+		<ol start="2">
+			<li>Số 1,1</li>
+		</ol>
+		<li>Số 2</li>
+	</ol>
+
+	<hr>
+	<p>Xin chào 1</p>
+	<font face="Arial" size="80px" color="red">
+		<span>Xin chào 2</span>
+	</font>
+
+	<hr>
+	<a href="#top">Bấm vào đây</a>
+	
+	<caption>Xin chào bạn</caption>
+	<table border="1px" cellspacing="10px" cellpadding="5px" >
+		<tr valign="top" align="centẻ">
+			<td width="100px" rowspan="2">Xin chào fefewgwgwegewgwegewgegewgewg</td>
+			<td height="100px" colspan="2">Xin chào</td>
+		</tr>
+		<tr>
+			<td height="50px">Xin chào </td>
+			<td>Xin chào</td>			
+		</tr>
+	</table>
+
+	<hr>
+	<form name="login" action="" method="post">
+		<input type="text" placeholder="Tài khoản của bạn" name="">
+		<input type="password" placeholder="Mật khẩu của bạn" name="">
+		<br>
+
+
+		<label for="male">Nam: </label>
+		<input id="male" name="sex[]" type="checkbox" value="male" >
+		<label for="female">Nữ: </label>
+		<input id="female" name="sex[]" type="checkbox" value="female" >
+
+		<br>
+		<label for="male">Nam: </label>
+		<input id="male" name="sex[]" type="radio" value="male" >
+		<label for="female">Nữ: </label>
+		<input id="female" checked="" name="sex[]" type="radio" value="female" >
+
+		<br>
+		<textarea placeholder="Điền vào đây" rows="10" cols="50">
+		</textarea>
+		<br>
+		<select size="2" >
+			<option value="Tao">PT 1</option>
+			<option value="Oi">PT 2</option>
+			<option value="Xoai">PT 3</option>
+			<option value="Xoai">PT 4</option>
+		</select>
+	</form>
+
+	<form>
+		<fieldset>
+			<font><legend>Đăng nhập</legend></font>
+			
+			Name: <input type="text" name=""><br>
+			Pass: <input type="password" name=""><br>
+			<input type="submit" name=""><br>
+			<input type="image" src="https://iweb.tatthanh.com.vn/pic/3207/news/ten-cac-loai-hoa-dep-va-y-nghia.jpg" name="">
+		</fieldset>
+	</form>
+
+	<button disabled type="submit">
+		Đăng nhập
+	</button>
+
+</html>
